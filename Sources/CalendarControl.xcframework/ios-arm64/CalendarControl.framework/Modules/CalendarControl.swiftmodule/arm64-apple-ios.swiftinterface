@@ -13,6 +13,7 @@ import UIKit
 }
 @objc @_hasMissingDesignatedInitializers public class CalendarPickerViewController : UIKit.UIViewController {
   public init(baseDate: Foundation.Date, selectedDateChanged: @escaping ((Foundation.Date) -> Swift.Void))
+  public func goTOVC()
   @objc override dynamic public func viewDidLoad()
   @objc override dynamic public func viewWillTransition(to size: CoreGraphics.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
   @objc deinit
