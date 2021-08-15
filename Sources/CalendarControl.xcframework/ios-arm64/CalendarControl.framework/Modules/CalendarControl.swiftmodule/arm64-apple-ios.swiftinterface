@@ -13,13 +13,13 @@ import UIKit
 }
 @objc @_hasMissingDesignatedInitializers public class CalendarPickerViewController : UIKit.UIViewController {
   public init(baseDate: Foundation.Date, selectedDateChanged: @escaping ((Foundation.Date) -> Swift.Void))
-  public func goTOVC()
   @objc override dynamic public func viewDidLoad()
   @objc override dynamic public func viewWillTransition(to size: CoreGraphics.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
   @objc deinit
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
 }
 extension CalendarPickerViewController : UIKit.UICollectionViewDataSource {
+  public func goTOVC()
   @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
   @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
 }
