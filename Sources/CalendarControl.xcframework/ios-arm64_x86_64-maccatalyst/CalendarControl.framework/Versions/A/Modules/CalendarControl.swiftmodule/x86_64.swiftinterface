@@ -5,7 +5,7 @@
 import Foundation
 import Swift
 import UIKit
-@objc @_inheritsConvenienceInitializers public class VCTestBasim : UIKit.UIViewController {
+@objc @_inheritsConvenienceInitializers open class VCTestBasim : UIKit.UIViewController {
   @objc override dynamic public func viewDidLoad()
   @objc deinit
   @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
