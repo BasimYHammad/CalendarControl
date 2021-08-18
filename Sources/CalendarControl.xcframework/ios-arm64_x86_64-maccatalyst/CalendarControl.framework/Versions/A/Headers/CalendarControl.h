@@ -37,4 +37,3 @@ FOUNDATION_EXPORT double CalendarControlVersionNumber;
 
 FOUNDATION_EXPORT const unsigned char CalendarControlVersionString[];
 
-//FOUNDATION_EXPORT Class VCTestBasim;

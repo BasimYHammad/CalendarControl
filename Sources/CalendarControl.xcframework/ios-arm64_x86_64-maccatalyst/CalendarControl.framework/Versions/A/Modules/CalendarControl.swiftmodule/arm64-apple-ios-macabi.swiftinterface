@@ -5,12 +5,7 @@
 import Foundation
 import Swift
 import UIKit
-@objc @_inheritsConvenienceInitializers open class VCTestBasim : UIKit.UIViewController {
-  @objc override dynamic public func viewDidLoad()
-  @objc deinit
-  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @objc required dynamic public init?(coder: Foundation.NSCoder)
-}
+public func getLoginScreen(onLogin: @escaping () -> ()) -> UIKit.UIViewController
 @objc @_hasMissingDesignatedInitializers public class CalendarPickerViewController : UIKit.UIViewController {
   public init(baseDate: Foundation.Date, selectedDateChanged: @escaping ((Foundation.Date) -> Swift.Void))
   @objc override dynamic public func viewDidLoad()
